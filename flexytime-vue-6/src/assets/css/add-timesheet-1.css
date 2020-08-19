@@ -1,0 +1,115 @@
+/*--------- search input ------------*/
+.box1 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .box1 input {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    outline: none;
+    height: 70px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 16px;
+    color: #64657e;
+    padding-top: 25px;
+  }
+  
+  .deni {
+    position: relative;
+  }
+  
+  .deni label[for="label1"] {
+    position: absolute;
+    top: 18px;
+    left: 2px;
+    transform: translate(10px, 6px);
+    pointer-events: none;
+    color: #999;
+    transition: 0.5s;
+    vertical-align: middle;
+  }
+  
+  .box1 input:focus ~ label[for="label1"],
+  .box1 input:valid ~ label[for="label1"] {
+    top: -5px;
+    left: 0;
+    padding-top: 7px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    color: #999;
+    font-size: 14px;
+    background-color: transparent;
+    font-weight: bold;
+  }
+  
+  .deni label[for="label2"] {
+    display: none;
+    transition: 2s;
+    position: absolute;
+  }
+  
+  .box1 input:focus ~ label[for="label2"],
+  .box1 input:valid ~ label[for="label2"] {
+    border: 1px solid black;
+    border-top: none;
+    width: 480px !important;
+    height: 180px;
+    left: 10px !important;
+    top: 70px;
+    display: block;
+    padding-left: 20px !important;
+    padding-right: 20px;
+    padding-top: 4px;
+    color: #999;
+    font-size: 14px;
+    background-color: transparent;
+    font-weight: bold;
+  } 
+  
+  .deni label[for="label3"] {
+    display: none;
+    position: absolute;
+  }
+  .box1 input:focus ~ label[for="label3"],
+  .box1 input:valid ~ label[for="label3"] {
+    display: block;
+    bottom: 18px;
+    padding-left: 11px;
+    color: black;
+    font-size: 14px;
+    background-color: transparent;
+  }
+  .add-label {
+    color: #999;
+  }
+  /*--------- search input ------------*/
+   
+  ul , li{
+      padding: 0;
+      margin: 0;
+  }
+
+  .icon-1{
+      border: 1px solid #FF9900;
+      padding: 3px 10px ;
+      border-radius: 40px;
+      color: black;
+      background-color: #FF9900;
+  }
+  .icon-2{
+    border: 1px solid #9900FF;
+    padding: 3px 10px ;
+    border-radius: 40px;
+    color: white;
+    background-color: #9900FF;
+}
+.icon-automata{
+    border: 1px solid #00FFFF;
+    padding: 3px 10px ;
+    border-radius: 40px;
+    color: black;
+    background-color: #00FFFF;
+}

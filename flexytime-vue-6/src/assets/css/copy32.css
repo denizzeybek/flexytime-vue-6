@@ -1,0 +1,14 @@
+.info-circle{
+    color: #1976d2;
+}
+
+.activity-text-sec{
+    height: 500px;
+}
+.activity-header{
+    font-size: 17px;
+}
+.left-line-vertical{
+    border-left: 1px dashed black;
+    height: auto;
+}

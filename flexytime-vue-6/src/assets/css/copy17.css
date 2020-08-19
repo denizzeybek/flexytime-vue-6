@@ -1,0 +1,37 @@
+ .card{
+     border-color: #1976d2;
+ }
+
+ .row .line-row-full {
+    border-bottom: 1px solid #afafaf;
+    border-bottom: 0;
+    background-color: #afafaf;
+    height: 15px;
+    width: 688%;
+    position: absolute;
+    bottom: 180px;
+    z-index: -1;
+  }
+ .row .line-row-onto { 
+    border-top: 1px solid #1976d2;
+    border-bottom:0 ;
+    height: 15px;
+    background-color: #1976d2;
+    width: 350px;
+    z-index: 333;
+    position: absolute;
+    left: 170px; 
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+

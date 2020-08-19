@@ -1,0 +1,122 @@
+{
+    "items" : [
+        {
+            "title" : "12:00-13:00",
+            "checked" : false, 
+            "itemApp" : [
+                {
+                    "title" : "Visual Studio",
+                    "imageUrl" : "./image/visual-studio.png", 
+                    "time" : 26,
+                    "checked" : false, 
+                    "itemDocument" : [
+                        {
+                            "title" : "Ozgonul.sln",
+                            "imageUrl" : "./image/visual-studio.png", 
+                            "time" : 11, 
+                            "checked" : false
+
+                        },
+                        {
+                            "title" : "FlexyTime",
+                            "imageUrl" : "./image/visual-studio.png", 
+                            "time" : 15,
+                            "checked" : false
+
+                        }
+                    ]
+                },
+                {
+                    "title" : "Youtube",
+                    "imageUrl" : "./image/youtube.png", 
+                    "time" : 26,
+                    "checked" : false,
+                    "itemDocument" : [
+                        {
+                            "title" : "YazılimBilimi",
+                            "imageUrl" : "./image/youtube.png", 
+                            "time" : 13,
+                            "checked" : false
+
+                        },
+                        {
+                            "title" : "DoganKabak",
+                            "imageUrl" : "./image/youtube.png", 
+                            "time" : 13,
+                            "checked" : false
+
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title" : "13:00-14:00",
+            "checked" : false,
+            "itemApp" : [
+                {
+                    "title" : "Visual Studio",
+                    "imageUrl" : "./image/visual-studio.png", 
+                    "time" : 16, 
+                    "checked" : false,
+                    "itemDocument" : [
+                        {
+                            "title" : "VueJs",
+                            "imageUrl" : "./image/visual-studio.png", 
+                            "time" : 16,
+                            "checked" : false
+
+                        }
+                    ]
+                },
+                {
+                    "title" : "Youtube",
+                    "imageUrl" : "./image/youtube.png", 
+                    "time" : 34,
+                    "checked" : false,
+                    "itemDocument" : [
+                        {
+                            "title" : "BilgisayarKavramlari",
+                            "imageUrl" : "./image/youtube.png", 
+                            "time" : 17,
+                            "checked" : false
+
+                        },
+                        {
+                            "title" : "FilmlerVeFilimler",
+                            "imageUrl" : "./image/youtube.png", 
+                            "time" : 17,
+                            "checked" : false
+
+                        }
+                    ]
+                }
+            ]
+        }
+
+        
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
